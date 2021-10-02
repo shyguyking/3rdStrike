@@ -1,0 +1,68 @@
+/* CSS files add styling rules to your content */
+
+html, body {
+  margin: 0;
+  background-image: url('https://cdn.glitch.com/bd8d4cc7-f080-4bd2-a9ab-85ba0b51e852%2F3rduniverseposter_square.jpg?v=1600906659441'); /*cuz it looks sick*/
+  /*https://splitframe.net/products/street-fighter-iii-3rd-universe-poster-by-motoki-yoshihara-1 Illustration and Colors by Motoki Yoshihara (Head illustrator for the Basara Manga Series in Japan)*/
+  /*background-repeat: no-repeat;
+  background-position: center;*/
+  background-size: 181px 181px;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 100%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2.5% 2.5% 0;
+  background: white;
+  line-height: 1.8;
+}
+main nav {
+  padding: 15px;
+  width: 200px;
+  border: 1px solid gray;
+  background: #A7C8F2;
+  line-height: 1.2;
+}
+header h2 {
+	padding-bottom: .2em;
+	border-bottom: 1px solid gray;
+}
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+.flowRight {
+	margin-left: 10px;
+  float: right;
+}
+.flowLeft {
+	margin-right: 10px;
+  float: left;
+}
+figure figcaption {
+  font-size:70%;
+}
+h1, h2 {
+  color: #F90060;
+  background-color: #00A2F0;
+  font-style: bold;
+}
+h3 {
+  color: #00A2F0;
+  background-color: #F90060;
+}
+h4 {
+  color: #00A2F0;
+  background-color: #FFEF00;
+}
